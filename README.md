@@ -39,7 +39,15 @@ iface bond0 inet static
 10.10.10.0/29  
 10.10.10.8/29  
 10.10.10.16/29  
-6. 
+6. 100.64.0.0/26  
+7. Linux and Windows:  
+arp -a (arp таблица)  
+arp -d 192.168.0.1 (удалить определенную запись)  
+arp -d (очистка кэш в Windows)  
+sudo ip -s -s neigh flush all (очистка кэш в Linux)  
+8. 
+
+
 
 
 
