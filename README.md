@@ -45,7 +45,7 @@ arp -a (arp таблица)
 arp -d 192.168.0.1 (удалить определенную запись)  
 arp -d (очистка кэш в Windows)  
 sudo ip -s -s neigh flush all (очистка кэш в Linux)  
-8. 
+
 
 
 
